@@ -1,14 +1,20 @@
 {
   "name": "react-nextjs-starter-kit",
   "version": "1.0.0",
+  "homepage": "https://adrianofront.github.io/Bitcoin-Conversor/",
   "description": "",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dev": "next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "moment": "^2.29.4",
     "next": "^12.0.7",
     "react": "^17.0.2",
