@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import Container from '../components/container/Container'
-import CoinInfo from '../components/coinInfo/coinInfo'
+import CoinInfo from '../components/coininfo/coinInfo'
 
 function HomePage () {
     const [data, setData] = useState()
